@@ -1,0 +1,96 @@
+# Node.js #
+###########
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Runtime data #
+################
+*.pid
+*.seed
+*.pid.lock
+
+# Directory-based project format #
+##################################
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.pssproj
+
+# User-specific files #
+#######################
+*.env
+*.DS_Store
+*.localized
+
+# TypeScript #
+##############
+*.tsbuildinfo
+
+# Next.js #
+############
+.next/
+out/
+
+# Build outputs #
+#################
+dist/
+build/
+
+# MySQL #
+#########
+*.db
+
+# macOS #
+########
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows #
+###########
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux #
+#########
+*~
+.nfs*
+
+# Temporary files #
+###################
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+*.save
+
+# JetBrains #
+#############
+.idea/
+*.iml
+
+# IntelliJ #
+############
+*.ipr
+*.iws
+
+# Eclipse #
+###########
+.project
+.classpath
+.cproject
+.settings/
