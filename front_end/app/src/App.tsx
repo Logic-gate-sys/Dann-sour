@@ -3,6 +3,7 @@ import { useState } from "react";
 import Hero from "./pages/Hero.tsx";
 import LoginSignup from "./pages/Login_Signup.tsx";
 import Home from "./pages/Home.tsx";
+import Pdf_viewer from "./pages/Pdf_viewer.tsx";
 
 const App: React.FC=()=>{
   const [toLog,setTolog]=useState(false);
@@ -16,17 +17,18 @@ const App: React.FC=()=>{
       setTolog(toLog=>!toLog);
   }
   return (
-  <div>{
-   !toLog && <Hero toLog={wantsToLog}/>
-    }
+    <Pdf_viewer/>
+  // <div>{
+  //  !toLog && <Hero toLog={wantsToLog}/>
+  //   }
      
-     {!islogged &&<LoginSignup isLogged={isRegistered} />
-     }
-     {
-      islogged && <Home/>
-     }
+  //    {!islogged &&<LoginSignup isLogged={isRegistered} />
+  //    }
+  //    {
+  //     islogged && <Home/>
+  //    }
      
-  </div>
+  // </div>
   )
 }
 export default App;
